@@ -1,0 +1,10 @@
+.users-table {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.mat-mdc-header-cell,
+.mat-mdc-cell {
+  padding: 0.75rem;
+}
+
