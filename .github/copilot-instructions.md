@@ -26,8 +26,8 @@ You are an expert in TypeScript, Angular, and scalable web application developme
 - When using external templates/styles, use paths relative to the component TS file.
 ## State Management
 - Use signals for local component state
-- Use `computed()` for derived state
-- Keep state transformations pure and predictable
+- Use `computed()` for de
+- ons pure and predictable
 - Do NOT use `mutate` on signals, use `update` or `set` instead
 ## Templates
 - Keep templates simple and avoid complex logic
