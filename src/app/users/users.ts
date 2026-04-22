@@ -38,7 +38,7 @@ interface User {
 }
 
 @Component({
-  selector: 'app-users',
+  selector: 'app-user',
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
     MatButton,

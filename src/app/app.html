@@ -1,21 +1,15 @@
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * Delete the template below * * * * * * * * * -->
-<!-- * * * * * * * to get started with your project! * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
 <main class="main">
-  <div class="content">
-    <!--
-    <app-left></app-left>
-    <div class="divider" role="separator" aria-label="Divider"></div>
-    <app-right></app-right>
-     -->
-    <app-users></app-users>
-  </div>
+  <section class="content" aria-labelledby="home-title">
+    <h1 id="home-title">Homepage</h1>
+    <p>Choose a section to open.</p>
+    <nav aria-label="Main navigation actions">
+      <button type="button" routerLink="/users">Users</button>
+      <button type="button" routerLink="/orders">Orders</button>
+    </nav>
+  </section>
+
+  <section aria-label="Routed content">
+    <router-outlet />
+  </section>
 </main>
 
-<router-outlet />
